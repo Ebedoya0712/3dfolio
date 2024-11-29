@@ -44,7 +44,6 @@ const Navbar = () => {
         >
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Eliecer Bedoya &nbsp;
-            <span className='sm:block hidden'> | Programador Web FullStack</span>
           </p>
         </Link>
 
