@@ -168,92 +168,84 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Trabajar con Eliecer fue una experiencia increíble. Nos entregó un sistema eficiente y fácil de usar que revolucionó la forma en que gestionamos nuestras ventas y el inventario. Siempre estuvo atento a nuestras necesidades y aportó ideas innovadoras. ¡Lo recomiendo totalmente!",
+    name: "María López",
+    designation: "Gerente",
+    company: "Farmacia Vida Saludable",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Desde que comencé a trabajar con Eliecer, la eficiencia y la efectividad en mis proyectos de software han mejorado considerablemente. Su capacidad para adaptar soluciones a medida según las necesidades del cliente es increíble.",
+    name: "Carlos Rodríguez",
+    designation: "Emprendedor",
+    company: "tecnología",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "He colaborado con Eliecer en varios proyectos y siempre me ha impresionado su capacidad para crear experiencias de usuario excepcionales. Su atención al detalle en la implementación de interfaces intuitivas y responsivas es incomparable.",
+    name: "María Sánchez",
+    designation: "Diseñadora",
+    company: "Web",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Fishbox",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "En FishboxChile, una empresa chilena dedicada a la venta de mariscos y pescados, trabajé como programador fullstack utilizando Laravel, Vue.js, Nuxt.js y MySQL. Mis responsabilidades incluyeron: Desarrollo de interfaces de usuario intuitivas y optimizadas. Implementación de funcionalidades backend para gestión de pedidos e inventarios. Diseño y optimización de bases de datos. Integración de pasarelas de pago y mejora del rendimiento de las aplicaciones.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "Nuxt js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Laravel",
         color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://fishboxchile.cl/",
   },
   {
-    name: "Job IT",
+    name: "BotRamsey",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "BotRamsey es un sistema creado en Python que combina web scraping e inteligencia artificial para proporcionar recetas de cocina personalizadas. El chatbot interactivo extrae recetas de diversas fuentes web y las adapta a las preferencias del usuario. Además, utiliza IA para recomendar opciones saludables en caso de condiciones médicas específicas, como diabetes o hipertensión.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Ebedoya0712/BotRamsey",
   },
   {
-    name: "Trip Guide",
+    name: "Sistema de Farmacia",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Un sistema web en PHP, MySQL, AJAX y jQuery para gestionar ventas, control de stock, clientes y reportes en una farmacia. Incluye funciones dinámicas como autocompletado, validación en tiempo real y alertas de inventario, optimizando procesos y mejorando la experiencia del usuario.",
     tags: [
       {
-        name: "nextjs",
+        name: "Php",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Ajax",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MySql",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Ebedoya0712/Sistema-Farmacia",
   },
 ];
 
