@@ -193,25 +193,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Fishbox",
+    name: "Sistema de Citas Medicas",
     description:
-      "En FishboxChile, una empresa chilena dedicada a la venta de mariscos y pescados, trabajé como programador fullstack utilizando Laravel, Vue.js, Nuxt.js y MySQL. Mis responsabilidades incluyeron: Desarrollo de interfaces de usuario intuitivas y optimizadas. Implementación de funcionalidades backend para gestión de pedidos e inventarios. Diseño y optimización de bases de datos. Integración de pasarelas de pago y mejora del rendimiento de las aplicaciones.",
+      "Desarrollé un sistema web para la gestión de citas médicas en clínicas y hospitales. El sistema permite un login con roles de usuario, registro y consulta de citas, pacientes, médicos y áreas médicas. Está construido con PHP, MySQL y AJAX, ofreciendo una experiencia fluida y optimizando la administración médica.",
     tags: [
       {
-        name: "Nuxt js",
+        name: "Php",
         color: "green-text-gradient",
       },
       {
-        name: "Laravel",
+        name: "Mysql",
         color: "pink-text-gradient",
       },
       {
-        name: "mysql",
+        name: "Ajax",
         color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://fishboxchile.cl/",
+    source_code_link: "https://github.com/Ebedoya0712/citas_medicas/tree/main",
   },
   {
     name: "BotRamsey",
